@@ -14,15 +14,19 @@ public class Fibonacci_Series {
 		
 		int num1 = sc.nextInt();
 		
-		for(int i = 0 ; i < num1 ; i++) {
+		int var1 = 0, var2 = 1;
+		System.out.print(var1 +", "+var2+", ");
+		
+		for(int i = 1; i <= num1 ; i++) {
 			
-			 int tem
-			 
-			 System.out.println( temp + i); 
-			 
-			 temp = i; 
-			 
+			int var3 = var1 + var2 ; 
+			
+			var1 = var2;
+			var2 = var3;
+			System.out.print(var2+", ");
 		}
+		 
+		sc.close();
 	}
 
 }
