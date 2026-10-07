@@ -34,16 +34,35 @@ public class String_Q4 {
 	
 	public static void main(String[] args) {
 	
-		Scanner sc = new Scanner(System.in);
-		System.out.print("Please enter the word ");
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("Please enter the word ");
+//		
+//		String s = sc.nextLine();
+//		
+//		int count = vowels(s);
+//		
+//		System.out.println(count);
 		
-		String s = sc.nextLine();
+		Scanner scan = new Scanner(System.in);
+        int i = scan.nextInt();
+        
+        double d = scan.nextDouble();
+        scan.nextLine();   // consume line 
+        String s = scan.nextLine();
+
+        // Write your code here.
+
+        System.out.println("String: " +s);
+        System.out.println("Double: " +d);
+        System.out.println("Int: " +i);
+        
+        scan.close();
 		
-		int count = vowels(s);
-		
-		System.out.println(count);
-		
-		
+		/*nextInt()     → 42
+nextDouble()  → 3.1415
+nextLine()    → consumes Enter
+nextLine()    → "Welcome to Java!"
+*/
 
 	}
 
