@@ -1,3 +1,15 @@
+/*
+Build a BankAccount class with:
+- Account holder name
+- Account number
+- Balance
+- deposit() method
+- withdraw() method
+- displayBalance() method
+Try to prevent withdrawals that exceed the balance.
+*/
+
+
 package Day8;
 import java.util.*;
 public class BankAccount {
