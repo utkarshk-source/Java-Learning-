@@ -27,9 +27,7 @@ public class Q6 {
 					isPrime = false;
 					break;
 				}
-
 			}
-
 		}
 		
 		if(isPrime) {
