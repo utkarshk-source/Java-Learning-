@@ -17,7 +17,7 @@ public class BankAccount {
 	 // Instance variables
     String accountHolderName;
     long accountNumber;
-    double balance;
+    private double balance;
 
     // Constructor
     BankAccount(String accountHolderName, long accountNumber, double balance) {
