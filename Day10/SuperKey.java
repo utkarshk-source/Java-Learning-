@@ -4,10 +4,7 @@ public class SuperKey extends ParentSupper {
 	
 	SuperKey(){    //constructor 
 		
-		super();
-		
-	
-		//**automatic super() method write so the paent constructor called 
+		super();		//**automatic super() method write so the paent constructor called 
 		System.out.println();
 		System.out.println("Inside Super key child constructor");
 	}
